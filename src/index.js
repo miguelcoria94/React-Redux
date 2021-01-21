@@ -4,4 +4,13 @@ import ReactDOM from 'react-dom';
 
 //create component
 
+const App = function () {
+  return <div>Hi There!</div>
+};
+
+ReactDOM.render(
+  <App />,
+  document.getElementById("root")
+)
+
 //take react component and show it
