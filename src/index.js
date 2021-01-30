@@ -5,7 +5,10 @@ import ReactDOM from 'react-dom';
 //create component
 
 const App = function () {
-  return <div style={{backgroundColor: "blue"}}>Hi There!</div>
+  const buttonText = 'Click Me'
+  return <div style={{ backgroundColor: "blue" }}><button>{buttonText}
+  </button>
+  </div>
 };
 
 ReactDOM.render(
