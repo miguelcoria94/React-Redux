@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 //create component
 
 const App = function () {
-  return <div style={{color: "blue"}}>Hi There!</div>
+  return <div style={{backgroundColor: "blue"}}>Hi There!</div>
 };
 
 ReactDOM.render(
